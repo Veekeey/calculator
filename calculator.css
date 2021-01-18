@@ -1,0 +1,106 @@
+body {
+background-color: #000;
+ 
+}
+
+.container {
+  width: 20%;
+  height: 39vh;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+.display {
+  width: 97%;
+  height: 3.5rem;
+}
+
+.row1 {
+  display: flex;
+}
+
+.clear {
+width: 50%;
+height: 4rem;
+background-color: #CED6D3;
+}
+
+.clear:hover {
+  background-color: #E2E8E1;
+}
+
+.back {
+width: 25%;
+height: 4rem;
+background-color: #CED6D3;
+}
+
+.back:hover {
+  background-color: #E2E8E1;
+}
+
+.divide {
+  width: 25%;
+  height: 4rem;
+  background-color: #D5863C;
+}
+
+.divide:hover {
+  background-color: #E2E8E1;
+}
+
+.row2 {
+  display: flex;
+}
+
+.row3 {
+  display: flex;
+}
+
+.row4 {
+  display: flex;
+}
+
+.row5 {
+  display: flex;
+}
+
+.number {
+  width: 25%;
+  height: 4rem;
+  background-color: #CED6D3;
+}
+
+.number:hover {
+  background-color: #E2E8E1;
+}
+
+.zero {
+  width: 75%;
+}
+
+.last {
+  background-color: #D5863C;
+}
+
+p {
+  font-weight: 500;
+  margin: 0 auto;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.zer {
+  margin-left: 1rem;
+}
+
+.cle {
+  margin-left: .5rem;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+  } 
+}
